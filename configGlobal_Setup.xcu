@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data oor:name="Setup" oor:package="org.openoffice"
+    xmlns:oor="http://openoffice.org/2001/registry"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<node oor:name="Office">
+		<node oor:name="Factories">
+			<node oor:name="com.sun.star.text.TextDocument">
+				<prop oor:name="ooSetupFactoryDefaultFilter" oor:type="xs:string" oor:finalized="true" oor:op="replace">
+					<value>MS Word 2007 XML</value>
+				</prop>
+			</node>
+		</node>
+	</node>
+</oor:component-data>
